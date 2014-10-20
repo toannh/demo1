@@ -1,0 +1,42 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->  
+<!DOCTYPE tiles-definitions PUBLIC  
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+        
+<tiles-definitions>
+    <definition name="shop.layout" template="/view/shop/layout.jsp">
+        <put-attribute name="navbar" value="/view/shop/widget/navbar.jsp"/>
+        <put-attribute name="header" value="/view/shop/widget/header.jsp"/>
+        <put-attribute name="menu" value="/view/shop/widget/menu.jsp"/>
+        <put-attribute name="sidebar" value="/view/shop/widget/sidebar.jsp"/>
+        <put-attribute name="footer" value="/view/shop/widget/footer.jsp"/>
+    </definition>
+    
+    <definition name="shop.index" extends="shop.layout">
+        <put-attribute name="content" value="/view/shop/index.jsp"/>
+    </definition>
+    <definition name="shop.browse" extends="shop.layout">
+        <put-attribute name="content" value="/view/shop/browse.jsp"/>
+    </definition>
+    <definition name="shop.map" extends="shop.layout">
+        <put-attribute name="content" value="/view/shop/map.jsp"/>
+    </definition>
+    <definition name="shop.about" extends="shop.layout">
+        <put-attribute name="content" value="/view/shop/about.jsp"/>
+    </definition>
+    <definition name="shop.contact" extends="shop.layout">
+        <put-attribute name="content" value="/view/shop/contact.jsp"/>
+    </definition>
+    <definition name="shop.guide" extends="shop.layout">
+        <put-attribute name="content" value="/view/shop/guide.jsp"/>
+    </definition>
+    <definition name="shop.news.allcategory" extends="shop.layout">
+        <put-attribute name="content" value="/view/shop/allnewscategory.jsp"/>
+    </definition>
+    <definition name="shop.news.category" extends="shop.layout">
+        <put-attribute name="content" value="/view/shop/newscategory.jsp"/>
+    </definition>
+    <definition name="shop.news.detail" extends="shop.layout">
+        <put-attribute name="content" value="/view/shop/news.jsp"/>
+    </definition>
+</tiles-definitions>

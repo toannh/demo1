@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+    <display-name>Custom Functions</display-name>
+    <tlib-version>1.0</tlib-version>
+    <uri>http://chodientu.vn/url</uri>
+    <function>
+        <name>manufacturerUrl</name>
+        <function-class>vn.chodientu.util.UrlUtils</function-class>
+        <function-signature>java.lang.String manufacturerUrl(java.lang.String)</function-signature>
+    </function>
+    <function>
+        <name>item</name>
+        <function-class>vn.chodientu.util.UrlUtils</function-class>
+        <function-signature>java.lang.String item(java.lang.String, java.lang.String)</function-signature>
+    </function>
+    <function>
+        <name>browse</name>
+        <function-class>vn.chodientu.util.UrlUtils</function-class>
+        <function-signature>java.lang.String browse(java.lang.String, java.lang.String)</function-signature>
+    </function>
+    <function>
+        <name>shopBrowseUrl</name>
+        <function-class>vn.chodientu.util.UrlUtils</function-class>
+        <function-signature>java.lang.String shopBrowseUrl(vn.chodientu.entity.input.ItemSearch, java.lang.String, java.lang.String)</function-signature>
+    </function>
+    <function>
+        <name>browseUrl</name>
+        <function-class>vn.chodientu.util.UrlUtils</function-class>
+        <function-signature>java.lang.String browseUrl(vn.chodientu.entity.input.ItemSearch, java.lang.String, java.lang.String)</function-signature>
+    </function>
+    <function>
+        <name>modelBrowseUrl</name>
+        <function-class>vn.chodientu.util.UrlUtils</function-class>
+        <function-signature>java.lang.String modelBrowseUrl(vn.chodientu.entity.input.ModelSearch, java.lang.String, java.lang.String)</function-signature>
+    </function>
+    
+    <function>
+        <name>browseToModel</name>
+        <function-class>vn.chodientu.util.UrlUtils</function-class>
+        <function-signature>java.lang.String browseToModel(vn.chodientu.entity.input.ItemSearch, java.lang.String)</function-signature>
+    </function>
+    <function>
+        <name>browseToItem</name>
+        <function-class>vn.chodientu.util.UrlUtils</function-class>
+        <function-signature>java.lang.String browseToItem(vn.chodientu.entity.input.ModelSearch, java.lang.String)</function-signature>
+    </function>
+    <function>
+        <name>modelDetailUrl</name>
+        <function-class>vn.chodientu.util.UrlUtils</function-class>
+        <function-signature>java.lang.String modelDetailUrl(vn.chodientu.entity.input.ItemSearch, java.lang.String, java.lang.String)</function-signature>
+    </function>
+    <function>
+        <name>newsCateUrl</name>
+        <function-class>vn.chodientu.util.UrlUtils</function-class>
+        <function-signature>java.lang.String newsCateUrl(java.lang.String, java.lang.String)</function-signature>
+    </function>
+    <function>
+        <name>newsDetailUrl</name>
+        <function-class>vn.chodientu.util.UrlUtils</function-class>
+        <function-signature>java.lang.String newsDetailUrl(java.lang.String, java.lang.String)</function-signature>
+    </function>
+    <function>
+        <name>orderSeller</name>
+        <function-class>vn.chodientu.util.UrlUtils</function-class>
+        <function-signature>java.lang.String orderSeller()</function-signature>
+    </function>
+    <function>
+        <name>orderBuyer</name>
+        <function-class>vn.chodientu.util.UrlUtils</function-class>
+        <function-signature>java.lang.String orderBuyer()</function-signature>
+    </function>
+</taglib>

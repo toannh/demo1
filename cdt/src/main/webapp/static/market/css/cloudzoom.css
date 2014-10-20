@@ -1,0 +1,62 @@
+/* This is the moving lens square underneath the mouse pointer. */
+.cloud-zoom-lens {
+	border: 2px solid #888;
+	margin:-2px;	/* Set this to minus the border thickness. */
+	background-color:#fff;	
+	cursor:move;
+}
+/* This is for the title text. */
+.cloud-zoom-title {
+	font-family:Arial, Helvetica, sans-serif;
+	position:absolute !important;
+	background-color:#000;
+	color:#fff;
+	padding:3px;
+	width:100%;
+	text-align:center;	
+	font-weight:bold;
+	font-size:10px;
+	top:0px;
+}
+/* This is the zoom window. */
+.cloud-zoom-big {
+	border:none;
+	overflow:hidden;
+	margin-top:4px;
+	background-repeat:no-repeat;
+}
+/* This is the loading message. */
+.cloud-zoom-loading {
+	color:white;	
+	background:#222;
+	padding:3px;
+	border:1px solid #000;
+}
+/* Feature section in ZoomEngine page */
+.zoom-section {	
+	clear:both;	
+	margin-top:20px;
+}
+* html .zoom-section { 
+	display:inline;
+	clear:both;
+}
+/* Feature descriptions in ZoomEngine page */
+.zoom-desc {
+	float:left;
+	margin-left:10px;
+	width:310px;
+	margin-bottom:20px;
+}
+.zoom-small-image {
+	border:4px solid #CCC;
+	float:left;
+	margin-bottom:20px;
+}
+.zoom-tiny-image {
+	border:none;
+	margin:0px;	
+}
+.zoom-tiny-image:hover {
+	border:none;		
+}

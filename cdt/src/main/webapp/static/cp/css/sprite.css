@@ -1,0 +1,23 @@
+[class*="icon32"]{
+	width:32px;
+	height:32px;
+	display:inline-block;
+	vertical-align:top;
+}
+.icon32-facebook{
+	background:url(../images/icons/icon-facebook.png) no-repeat;
+}
+.icon-gmail{
+	background: url(../images/icon-gmail.png) no-repeat;
+	width:40px;
+	height:40px;
+	display:inline-block;
+	vertical-align:top;
+}
+.icon-user{
+	background:url(../images/icon-user.png) no-repeat;
+	width:35px;
+	height:40px;
+	display:inline-block;
+	vertical-align:top;
+}

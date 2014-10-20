@@ -1,0 +1,531 @@
+.icon-modelbullet{
+	background:url(../images/icons/icon-modelbullet.png) no-repeat;
+	width:5px;
+	height:5px;
+	display:inline-block;
+	vertical-align:top;
+}
+.icon16-nlgray{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 0;
+}
+.icon16-nl{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -16px;
+}
+.icon16-codgray{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -32px;
+}
+.icon16-cod{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -48px;
+}
+.icon16-transgray{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -64px;
+}
+.icon16-trans{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -80px;
+}
+.icon16-shop{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -96px;
+}
+.icon16-skype{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -112px;
+}
+.icon16-checksquare{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -128px;
+}
+.icon16-telgray{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -144px;
+}
+.icon16-placegray{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -160px;
+}
+.icon16-fbcircle{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -176px;
+}
+.icon16-search{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -192px;
+}
+.icon16-money{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -208px;
+}
+.icon16-zoom{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -224px;
+}
+.icon16-arrow-updown{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -240px;
+}
+.icon16-bluewhite{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -256px;
+}
+.icon16-faq{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -272px;
+}
+.icon16-checkred{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -288px;
+}
+.icon16-checkok{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -304px;
+}
+.icon16-plus{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -320px;
+}
+.icon16-edit{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -336px;
+}
+.icon16-remove{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -352px;
+}
+.icon16-starvip{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -368px;
+}
+.icon16-calendar{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -384px;
+}
+.icon16-uptin{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -400px;
+}
+.icon16-faq{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -416px;
+}
+.icon16-usernormal{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -432px;
+}
+.icon16-mobile-green{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -448px;
+}
+.icon16-email-red{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -464px;
+}
+.icon16-like-green{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -480px;
+}
+.icon16-like-green{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -480px;
+}
+.icon16-shopin{
+	background:url(../images/icons/icon-item16.png) no-repeat 0 -496px;
+}
+.icon20-user{
+	background:url(../images/icons/icon-item20.png) no-repeat 0 0;
+}
+.icon20-comment{
+	background:url(../images/icons/icon-item20.png) no-repeat 0 -20px;
+}
+.icon20-news{
+	background:url(../images/icons/icon-item20.png) no-repeat 0 -40px;
+}
+.icon20-bidgray{
+	background:url(../images/icons/icon-item20.png) no-repeat 0 -60px;
+}
+.icon20-protected{
+	background:url(../images/icons/icon-item20.png) no-repeat 0 -80px;
+}
+.icon20-close{
+	background:url(../images/icons/icon-item20.png) no-repeat 0 -100px;
+}
+.icon20-pushcart{
+	background:url(../images/icons/icon-item20.png) no-repeat 0 -120px;
+}
+.icon24-star{
+	background:url(../images/icons/icon-item24.png) no-repeat 0 0;
+}
+.icon24-fb-white{
+	background:url(../images/icons/icon-item24.png) no-repeat 0 -24px;
+}
+.icon24-fb-blue,
+.boxblue-title ul li:hover .icon24-fb-white,
+.boxblue-title ul li.active .icon24-fb-white{
+	background:url(../images/icons/icon-item24.png) no-repeat 0 -48px;
+}
+.icon24-user{
+	background:url(../images/icons/icon-item24.png) no-repeat 0 -72px;
+}
+.icon24-email{
+	background:url(../images/icons/icon-item24.png) no-repeat 0 -96px;
+}
+.icon24-print{
+	background:url(../images/icons/icon-item24.png) no-repeat 0 -120px;
+}
+.icon24-search-white{
+	background:url(../images/icons/icon-item24.png) no-repeat 0 -144px;
+}
+.icon24-search-orange{
+	background:url(../images/icons/icon-item24.png) no-repeat 0 -168px;
+}
+.icon30-email{
+	background:url(../images/icons/icon-item30.png) no-repeat 0 0;
+}
+.icon30-notice{
+	background:url(../images/icons/icon-item30.png) no-repeat 0 -30px;
+}
+.icon30-success{
+	background:url(../images/icons/icon-item30.png) no-repeat 0 -60px;
+}
+.icon-bank{
+	background:url(../images/icons/icon-bank.png) no-repeat 0 0;
+	width:32px;
+	height:32px;
+	display:inline-block;
+	vertical-align:middle;
+}
+.icon35-person-gray{
+	background:url(../images/logo/icon-person-blue35.png) no-repeat 0 0;
+	width:35px;
+	height:35px;
+	display:inline-block;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.icon35-person-blue, .ul-bank li:hover a .icon35-person-gray, .ul-bank li.active a .icon35-person-gray{
+	background:url(../images/logo/icon-person-blue35.png) no-repeat 0 -40px;
+	width:35px;
+	height:35px;
+	display:inline-block;
+	vertical-align:middle;
+	cursor:pointer;
+}
+.icon42-home-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 0;
+}
+.icon42-fashion-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -42px;
+}
+.icon42-cosmetics-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -84px;
+}
+.icon42-tel-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -126px;
+}
+.icon42-computer-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -168px;
+}
+.icon42-camera-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -210px;
+}
+.icon42-phone-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -252px;
+}
+.icon42-book-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -294px;
+}
+.icon42-kid-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -336px;
+}
+.icon42-homeitem-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -378px;
+}
+.icon42-sofa-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -420px;
+}
+.icon42-scan-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -462px;
+}
+.icon42-bycicle-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -504px;
+}
+.icon42-game-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -546px;
+}
+.icon42-tennis-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -588px;
+}
+.icon42-drink-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -630px;
+}
+.icon42-watch-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -672px;
+}
+.icon42-relax-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -714px;
+}
+.icon42-machines-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -756px;
+}
+.icon42-animals-white{
+	background:url(../images/icons/icon-category42.png) no-repeat 0 -798px;
+}
+.category-list-icon ul li:hover .icon42-home-white,
+.category-list-icon ul li.active .icon42-home-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px 0;
+}
+.icon42-fashion-blue,
+.category-list-icon ul li:hover .icon42-fashion-white,
+.category-list-icon ul li.active .icon42-fashion-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -42px;
+}
+.icon42-cosmetics-blue,
+.category-list-icon ul li:hover .icon42-cosmetics-white,
+.category-list-icon ul li.active .icon42-cosmetics-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -84px;
+}
+.icon42-tel-blue,
+.category-list-icon ul li:hover .icon42-tel-white,
+.category-list-icon ul li.active .icon42-tel-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -126px;
+}
+.icon42-computer-blue,
+.category-list-icon ul li:hover .icon42-computer-white,
+.category-list-icon ul li.active .icon42-computer-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -168px;
+}
+.icon42-camera-blue,
+.category-list-icon ul li:hover .icon42-camera-white,
+.category-list-icon ul li.active .icon42-camera-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -210px;
+}
+.icon42-phone-blue,
+.category-list-icon ul li:hover .icon42-phone-white,
+.category-list-icon ul li.active .icon42-phone-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -252px;
+}
+.icon42-book-blue,
+.category-list-icon ul li:hover .icon42-book-white,
+.category-list-icon ul li.active .icon42-book-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -294px;
+}
+.icon42-kid-blue,
+.category-list-icon ul li:hover .icon42-kid-white,
+.category-list-icon ul li.active .icon42-kid-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -336px;
+}
+.icon42-homeitem-blue,
+.category-list-icon ul li:hover .icon42-homeitem-white,
+.category-list-icon ul li.active .icon42-homeitem-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -378px;
+}
+.icon42-sofa-blue,
+.category-list-icon ul li:hover .icon42-sofa-white,
+.category-list-icon ul li.active .icon42-sofa-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -420px;
+}
+.icon42-scan-blue,
+.category-list-icon ul li:hover .icon42-scan-white,
+.category-list-icon ul li.active .icon42-scan-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -462px;
+}
+.icon42-bycicle-blue,
+.category-list-icon ul li:hover .icon42-bycicle-white,
+.category-list-icon ul li.active .icon42-bycicle-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -504px;
+}
+.icon42-game-blue,
+.category-list-icon ul li:hover .icon42-game-white,
+.category-list-icon ul li.active .icon42-game-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -546px;
+}
+.icon42-tennis-blue,
+.category-list-icon ul li:hover .icon42-tennis-white,
+.category-list-icon ul li.active .icon42-tennis-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -588px;
+}
+.icon42-drink-blue,
+.category-list-icon ul li:hover .icon42-drink-white,
+.category-list-icon ul li.active .icon42-drink-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -630px;
+}
+.icon42-watch-blue,
+.category-list-icon ul li:hover .icon42-watch-white,
+.category-list-icon ul li.active .icon42-watch-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -672px;
+}
+.icon42-relax-blue,
+.category-list-icon ul li:hover .icon42-relax-white,
+.category-list-icon ul li.active .icon42-relax-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -714px;
+}
+.icon42-machines-blue,
+.category-list-icon ul li:hover .icon42-machines-white,
+.category-list-icon ul li.active .icon42-machines-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -756px;
+}
+.icon42-animals-blue,
+.category-list-icon ul li:hover .icon42-animals-white,
+.category-list-icon ul li.active .icon42-animals-white{
+	background:url(../images/icons/icon-category42.png) no-repeat -42px -798px;
+}
+.icon42-safe{
+	background:url(../images/icons/icon-item42.png) no-repeat 0 0;
+}
+.icon42-fast{
+	background:url(../images/icons/icon-item42.png) no-repeat 0 -42px;
+}
+.icon42-comfor{
+	background:url(../images/icons/icon-item42.png) no-repeat 0 -84px;
+}
+.icon42-user-orange{
+	background:url(../images/icons/icon-item42.png) no-repeat 0 -126px;
+}
+.icon42-bell-transparent{
+	background:url(../images/icons/icon-item42.png) no-repeat 0 -168px;
+}
+.icon42-bell-white, .smart-notification .active .icon42-bell-transparent{
+	background:url(../images/icons/icon-item42.png) no-repeat 0 -210px;
+}
+.icon42-bell-orange{
+	background:url(../images/icons/icon-item42.png) no-repeat 0 -252px;
+}
+.icon44-shop-white{
+	background:url(../images/icons/icon-item44.png) no-repeat 0 0;
+}
+.icon44-eye-white{
+	background:url(../images/icons/icon-item44.png) no-repeat 0 -44px;
+}
+.icon44-tag-white{
+	background:url(../images/icons/icon-item44.png) no-repeat 0 -88px;
+}
+.icon44-folder-white{
+	background:url(../images/icons/icon-item44.png) no-repeat 0 -132px;
+}
+.icon44-star-white{
+	background:url(../images/icons/icon-item44.png) no-repeat 0 -176px;
+}
+/*icon review*/
+.icon-voteup{
+	background:url(../images/icons/icon-review.png) no-repeat 0 0;
+	width:16px;
+	height:16px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0 2px 0 0;
+}
+.icon-votedown{
+	background:url(../images/icons/icon-review.png) no-repeat 0 -32px;
+	width:16px;
+	height:16px;
+	display:inline-block;
+	vertical-align:top;	
+	margin:2px 2px 0 0;
+}
+.icon-emailblue{
+	background:url(../images/icons/icon-review.png) no-repeat 0 -64px;
+	width:16px;
+	height:16px;
+	display:inline-block;
+	vertical-align:top;	
+	margin:2px 2px 0 4px;
+}
+/*end icon review*/
+.icon-autobid{
+	background:url(../images/icons/auctionIcon.png) no-repeat;
+	width:65px;
+	height:19px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
+
+
+/*icon invoice */
+.icon16-nopay{
+	background:url(../images/icons/icon16-bill.png) no-repeat 0 0;
+	width:17px;
+	height:17px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
+.icon16-pay{
+	background:url(../images/icons/icon16-bill.png) no-repeat 0 -25px;
+	width:17px;
+	height:17px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
+.icon16-repaypart{
+	background:url(../images/icons/icon16-bill.png) no-repeat 0 -48px;
+	width:17px;
+	height:18px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
+
+.icon16-repayall{
+	background:url(../images/icons/icon16-bill.png) no-repeat 0 -72px;
+	width:17px;
+	height:19px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
+.icon16-noship{
+	background:url(../images/icons/icon16-bill.png) no-repeat 0 -100px;
+	width:17px;
+	height:19px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
+.icon16-shipping{
+	background:url(../images/icons/icon16-bill.png) no-repeat 0 -125px;
+	width:17px;
+	height:19px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
+.icon16-ship-success{
+	background:url(../images/icons/icon16-bill.png) no-repeat 0 -151px;
+	width:17px;
+	height:19px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
+.icon16-transfer{
+	background:url(../images/icons/icon16-bill.png) no-repeat 0 -175px;
+	width:17px;
+	height:19px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
+.icon16-transfer-success{
+	background:url(../images/icons/icon16-bill.png) no-repeat 0 -199px;
+	width:17px;
+	height:19px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
+.icon16-transfer-cancel{
+	background:url(../images/icons/icon16-bill.png) no-repeat 0 -331px;
+	width:17px;
+	height:19px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
+
+.icon16-reviewgray{
+	background:url(../images/icons/icon16-bill.png) no-repeat 0 -232px;
+	width:17px;
+	height:19px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
+.icon16-review{
+	background:url(../images/icons/icon16-bill.png) no-repeat 0 -258px;
+	width:17px;
+	height:19px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
+.icon16-getreviewgray{
+	background:url(../images/icons/icon16-bill.png) no-repeat 0 -281px;
+	width:17px;
+	height:19px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
+.icon16-getreview{
+	background:url(../images/icons/icon16-bill.png) no-repeat 0 -305px;
+	width:17px;
+	height:19px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0;
+}
