@@ -1,0 +1,89 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->  
+<!DOCTYPE tiles-definitions PUBLIC  
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+        
+<tiles-definitions>
+    <definition name="market.layout" template="/view/market/layout.jsp">
+        <put-attribute name="navigator" value="/view/market/widget/navigator.jsp"/>
+        <put-attribute name="header" value="/view/market/widget/header.jsp"/>
+        <put-attribute name="footer" value="/view/market/widget/footer.jsp"/>
+    </definition>
+    
+    <definition name="market.404" extends="market.layout">
+        <put-attribute name="content" value="/view/market/error/page400.jsp"/>
+    </definition>
+    <definition name="market.500" extends="market.layout">
+        <put-attribute name="content" value="/view/market/error/page500.jsp"/>
+    </definition>
+    <definition name="market.index" extends="market.layout">
+        <put-attribute name="content" value="/view/market/index.jsp"/>
+    </definition>
+    <definition name="market.browse" extends="market.layout">
+        <put-attribute name="content" value="/view/market/browse.jsp"/>
+    </definition>
+    <definition name="market.browse.model" extends="market.layout">
+        <put-attribute name="content" value="/view/market/modelbrowse.jsp"/>
+    </definition>
+    <definition name="market.browse.search" extends="market.layout">
+        <put-attribute name="content" value="/view/market/searchresult.jsp"/>
+    </definition>
+    <definition name="market.browse.modelsearch" extends="market.layout">
+        <put-attribute name="content" value="/view/market/searchmodelresult.jsp"/>
+    </definition>
+    <definition name="market.model.detail" extends="market.layout">
+        <put-attribute name="content" value="/view/market/modeldetail.jsp"/>
+    </definition>
+    <definition name="market.item.detail" extends="market.layout">
+        <put-attribute name="content" value="/view/market/itemdetail.jsp"/>
+    </definition>
+    <definition name="market.categories" extends="market.layout">
+        <put-attribute name="content" value="/view/market/categories.jsp"/>
+    </definition>
+    <definition name="market.news.browse" extends="market.layout">
+        <put-attribute name="content" value="/view/market/news/browse.jsp"/>
+    </definition>
+    <definition name="market.news.detail" extends="market.layout">
+        <put-attribute name="title" value="CDT - Chi tiết sản phẩm" />
+        <put-attribute name="content" value="/view/market/news/detail.jsp"/>
+    </definition>
+    <definition name="market.news.list" extends="market.layout">
+        <put-attribute name="content" value="/view/market/news/list.jsp"/>
+    </definition>
+    <definition name="market.hotdeal" extends="market.layout">
+        <put-attribute name="content" value="/view/market/hotdeal/hotdeal.jsp"/>
+    </definition>
+    <definition name="market.hotdeal.category" extends="market.layout">
+        <put-attribute name="content" value="/view/market/hotdeal/hotdealcategory.jsp"/>
+    </definition>
+    <definition name="market.order.payment" extends="market.layout">
+        <put-attribute name="content" value="/view/market/order/payment.jsp"/>
+    </definition>
+    <definition name="market.order.cart" extends="market.layout">
+        <put-attribute name="content" value="/view/market/order/cartview.jsp"/>
+    </definition>
+    <definition name="market.order.cart" extends="market.layout">
+        <put-attribute name="content" value="/view/market/order/cartview.jsp"/>
+    </definition>
+    <definition name="market.landing" extends="market.layout">
+        <put-attribute name="content" value="/view/market/landing/landing.jsp"/>
+    </definition>
+    <definition name="market.landing.category" extends="market.layout">
+        <put-attribute name="content" value="/view/market/landing/landingcategory.jsp"/>
+    </definition>
+    <definition name="market.order.success" extends="market.layout">
+        <put-attribute name="content" value="/view/market/order/success.jsp"/>
+    </definition>
+    <definition name="market.order.invoice" extends="market.layout">
+        <put-attribute name="content" value="/view/market/order/invoice.jsp"/>
+    </definition>
+    <definition name="market.itemsearchhistory.searchhistory" extends="market.layout">
+        <put-attribute name="content" value="/view/market/itemsearchhistory/searchhistory.jsp"/>
+    </definition>
+    <definition name="market.itemsearchhistory.usersearchhistory" extends="market.layout">
+        <put-attribute name="content" value="/view/market/itemsearchhistory/usersearchhistory.jsp"/>
+    </definition>
+     <definition name="market.itemsearchhistory.common" extends="market.layout">
+        <put-attribute name="content" value="/view/market/itemsearchhistory/keycommon.jsp"/>
+    </definition>
+</tiles-definitions>

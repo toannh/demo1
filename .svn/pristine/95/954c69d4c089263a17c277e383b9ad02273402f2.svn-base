@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:p="http://www.springframework.org/schema/p" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:util="http://www.springframework.org/schema/util"
+        xmlns:mvc="http://www.springframework.org/schema/mvc"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+    http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
+   
+    <!-- Base Jawr config -->
+    <bean abstract="true" id="jawrBase"  class="net.jawr.web.servlet.JawrSpringController" >
+        <property name="mapping" value="/jawr/"/>
+        <property name="configuration">
+           <util:properties location="classpath:static.properties"/>
+        </property>
+    </bean>
+
+    <!-- JS controller -->
+    <bean id="jawrJsController" parent="jawrBase">
+        <property name="type" value="js" />
+    </bean>
+    <!-- CSS controller -->
+    <bean id="jawrCSSController" parent="jawrBase">
+        <property name="type" value="css" />
+    </bean>
+    <!-- Image controller -->
+    <bean id="jawrImgController" parent="jawrBase">
+        <property name="type" value="img" />
+    </bean>
+    
+    <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="mappings">
+            <props>
+                <prop key="/**/*.js">jawrJsController</prop>
+                <prop key="/**/*.css">jawrCSSController</prop>
+                <prop key="/**/*.*">jawrImgController</prop>
+            </props>
+        </property>
+    </bean>
+    
+</beans>

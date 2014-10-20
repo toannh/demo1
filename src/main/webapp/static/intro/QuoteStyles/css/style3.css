@@ -1,0 +1,167 @@
+
+.mb-style-3 {
+	width: 100%;
+}
+
+.mb-style-3 blockquote{
+	background: #fff;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.mb-style-3 blockquote:after, 
+.mb-style-3 blockquote:before  {
+	top: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.mb-style-3 blockquote:after  {
+	border-top-color: #ffffff;
+	border-width: 10px;
+	left: 85%;
+	margin-left: -10px;
+}
+
+.mb-style-3 blockquote:before {
+	border-top-color: rgba(0,0,0,0.01);
+	border-width: 11px;
+	left: 65%;
+	margin-left: -11px;
+}
+
+.mb-style-3 blockquote p {
+	font-size: 15px;
+	color: #000000;
+	font-weight: 400;
+	line-height: 30px;
+	font-style: italic;
+	text-indent: 100px;
+	position: relative;
+}
+
+.mb-style-3 blockquote p:before{
+	content: '\201C';
+	font-family: serif;
+	font-style: normal;
+	font-weight: 700;
+	position: absolute;
+	font-size: 175px;
+	top: 0px;
+	left: -105px;
+	color: #2D5891;
+	text-shadow: 7px 14px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mb-style-3 .mb-attribution {
+	text-align: right;
+	padding: 20px 100px 20px 20px;
+	position: relative;
+}
+
+.mb-style-3 .mb-thumb-nguyenmanh {
+	display: block;
+	width: 70px;
+	height: 70px;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	background: url(../images/testimo-glink.png) no-repeat center center;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	box-shadow: 
+		inset 1px 1px 4px rgba(0,0,0,0.5),
+		0 2px 3px rgba(0,0,0,0.6);
+}
+.mb-style-3 .mb-thumb-duyanh {
+	display: block;
+	width: 70px;
+	height: 70px;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	background: url(../images/testimo-duyanh.png) no-repeat center center;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	box-shadow: 
+		inset 1px 1px 4px rgba(0,0,0,0.5),
+		0 2px 3px rgba(0,0,0,0.6);
+}
+.mb-style-3 .mb-thumb-everon {
+	display: block;
+	width: 70px;
+	height: 70px;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	background: url(../images/testimo-everon.png) no-repeat center center;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	box-shadow: 
+		inset 1px 1px 4px rgba(0,0,0,0.5),
+		0 2px 3px rgba(0,0,0,0.6);
+}
+.mb-style-3 .mb-thumb-lotus {
+	display: block;
+	width: 70px;
+	height: 70px;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	background: url(../images/testimo-lotus.png) no-repeat center center;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	box-shadow: 
+		inset 1px 1px 4px rgba(0,0,0,0.5),
+		0 2px 3px rgba(0,0,0,0.6);
+}
+.mb-style-3 .mb-thumb-9x {
+	display: block;
+	width: 70px;
+	height: 70px;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	background: url(../images/testimo-9x.png) no-repeat center center;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	box-shadow: 
+		inset 1px 1px 4px rgba(0,0,0,0.5),
+		0 2px 3px rgba(0,0,0,0.6);
+}
+.mb-style-3 .mb-thumb-hungkhanh {
+	display: block;
+	width: 70px;
+	height: 70px;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	background: url(../images/testimo-hungkhanh.png) no-repeat center center;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	box-shadow: 
+		inset 1px 1px 4px rgba(0,0,0,0.5),
+		0 2px 3px rgba(0,0,0,0.6);
+}
+
+
+.mb-style-3 .mb-author{
+	font-weight: 400;
+	font-size: 18px;
+	color: #000;
+}
+
+.mb-style-3 cite a{
+	font-weight: 700;
+	font-style: italic;
+	color: #000;
+}
+
+.mb-style-3 cite a:hover{
+	color: rgba(188, 147, 200, 1);
+	text-shadow: 0 1px 1px rgba(255,255,255,0.7);
+}

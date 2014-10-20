@@ -1,0 +1,237 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->  
+<!DOCTYPE tiles-definitions PUBLIC  
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+        
+<tiles-definitions>
+    <definition name="user.base" template="/view/user/layout/base.jsp">
+        <put-attribute name="navigator" value="/view/user/widget/navigator.jsp"/>
+        <put-attribute name="header" value="/view/user/widget/header.jsp"/>
+        <put-attribute name="footer" value="/view/user/widget/footer.jsp"/>
+    </definition>
+    <definition name="user.main" extends="user.base">
+        <put-attribute name="content" value="/view/user/layout/main.jsp" />
+    </definition>
+    
+    <definition name="user.msg" extends="user.base">
+        <put-attribute name="title" value="Thông báo"/>
+        <put-attribute name="content" value="/view/user/msg.jsp"/>
+    </definition>
+    <definition name="user.signin" extends="user.base">
+        <put-attribute name="title" value="Đăng nhập vào hệ thống"/>
+        <put-attribute name="content" value="/view/user/auth/signin.jsp"/>
+    </definition>
+    <definition name="user.signup" extends="user.base">
+        <put-attribute name="title" value="Đăng ký tài khoản thành viên"/>
+        <put-attribute name="content" value="/view/user/auth/signup.jsp"/>
+    </definition>
+    <definition name="user.requestverify" extends="user.base">
+        <put-attribute name="title" value="Đăng ký tài khoản thành viên"/>
+        <put-attribute name="content" value="/view/user/auth/requestverify.jsp"/>
+    </definition>
+    <definition name="user.forgot" extends="user.base">
+        <put-attribute name="title" value="Đăng ký tài khoản thành viên"/>
+        <put-attribute name="content" value="/view/user/auth/forgot.jsp"/>
+    </definition>
+    <definition name="user.profile" extends="user.main">
+        <put-attribute name="title" value="Thông tin cá nhân"/>
+        <put-attribute name="main" value="/view/user/profile/profile.jsp" cascade="true" />
+    </definition>
+    <definition name="user.cash" extends="user.main">
+        <put-attribute name="title" value="Quản lý giao dịch"/>
+        <put-attribute name="main" value="/view/user/cash/cash.jsp" cascade="true"/>
+    </definition>
+    <definition name="user.additem" extends="user.main">
+        <put-attribute name="title" value="Đăng bán sản phẩm"/>
+        <put-attribute name="main" value="/view/user/item/post.jsp" cascade="true"/>
+    </definition>
+    <definition name="user.edititem" extends="user.main">
+        <put-attribute name="title" value="Sửa sản phẩm đăng bán"/>
+        <put-attribute name="main" value="/view/user/item/post.jsp" cascade="true"/>
+    </definition>
+    <definition name="user.item.postsuccess" extends="user.main">
+        <put-attribute name="title" value="Đăng bán sản phẩm thành công"/>
+        <put-attribute name="main" value="/view/user/item/postsuccess.jsp" cascade="true"/>
+    </definition>
+    <definition name="user.item.quick" extends="user.main">
+        <put-attribute name="title" value="Đăng bán sản phẩm thành công"/>
+        <put-attribute name="main" value="/view/user/item/quick.jsp" cascade="true"/>
+    </definition>
+    <definition name="user.item.openquick" extends="user.main">
+        <put-attribute name="title" value="Đăng bán sản phẩm thành công"/>
+        <put-attribute name="main" value="/view/user/item/openquick.jsp" cascade="true"/>
+    </definition>
+    <definition name="user.paymentintegrate" extends="user.main">
+        <put-attribute name="title" value="Cấu hình tích hợp thanh toán" />
+        <put-attribute name="main" value="/view/user/payment/paymentintegrate.jsp" cascade="true"/>
+    </definition>
+    <definition name="user.sellerpolicy" extends="user.main">
+        <put-attribute name="title" value="Chính sách bán hàng" />
+        <put-attribute name="main" value="/view/user/payment/sellerpolicy.jsp" cascade="true"/>
+    </definition>
+
+    <definition name="user.giftpromotion" extends="user.main">
+        <put-attribute name="title" value="CĐT - Khuyến mại quà tặng kèm cho sản phẩm" />
+        <put-attribute name="main" value="/view/user/promotion/giftpromotion.jsp" cascade="true" />
+    </definition>
+    <definition name="user.createcoupon" extends="user.main">
+        <put-attribute name="title" value="CĐT - Tạo khuyến mại giảm giá" />
+        <put-attribute name="main" value="/view/user/promotion/createcoupon.jsp" cascade="true" />
+    </definition>
+    <definition name="user.createcategorypromotion" extends="user.main">
+        <put-attribute name="title" value="Khuyến mại danh mục sản phẩm" />
+        <put-attribute name="main" value="/view/user/promotion/categorypromotion.jsp" cascade="true" />
+    </definition>
+    <definition name="user.createshopcategorypromotion" extends="user.main">
+        <put-attribute name="title" value="Khuyến mại giảm giá theo danh mục shop" />
+        <put-attribute name="main" value="/view/user/promotion/shopcategorypromotion.jsp" cascade="true" />
+    </definition>
+
+    <definition name="user.createitempromotion" extends="user.main">
+        <put-attribute name="title" value="Khuyến mại từng sản phẩm" />
+        <put-attribute name="main" value="/view/user/promotion/itempromotion.jsp" cascade="true" />
+    </definition>
+
+    <definition name="user.allitem" extends="user.main">
+        <put-attribute name="title" value="Danh sách sản phẩm" />
+        <put-attribute name="main" value="/view/user/item/allitem.jsp" cascade="true" />
+    </definition>
+    <definition name="user.posting" extends="user.main">
+        <put-attribute name="title" value="Quản Lý Up Tin" />
+        <put-attribute name="main" value="/view/user/posting/posting.jsp" cascade="true"  />
+    </definition>
+    <definition name="user.posting.history" extends="user.main">
+        <put-attribute name="title" value="Lịch sử Up Tin" />
+        <put-attribute name="main" value="/view/user/posting/history.jsp" cascade="true"  />
+    </definition>
+    <definition name="user.vipitem" extends="user.main">
+        <put-attribute name="title" value="Quản Lý Tin Vip" />
+        <put-attribute name="main" value="/view/user/vipitem/vipitem.jsp" cascade="true"  />
+    </definition>
+    <definition name="user.configshop.stepone" extends="user.main">
+        <put-attribute name="title" value="Step 1 - Cấu hình shop" />
+        <put-attribute name="main" value="/view/user/shop/configshopStepOne.jsp" cascade="true" />
+    </definition>
+    <definition name="user.configshop.steptwo" extends="user.main">
+        <put-attribute name="title" value="Step 2 - Cấu hình shop" />
+        <put-attribute name="main" value="/view/user/shop/configshopStepTwo.jsp" cascade="true" />
+    </definition>
+    <definition name="user.configshop.stepfive" extends="user.main">
+        <put-attribute name="title" value="Step 5 - Cấu hình shop" />
+        <put-attribute name="main" value="/view/user/shop/configshopStepFive.jsp" cascade="true" />
+    </definition>
+    <definition name="user.configshop.stepsix" extends="user.main">
+        <put-attribute name="title" value="Step 6 - Cấu hình shop" />
+        <put-attribute name="main" value="/view/user/shop/configshopStepSix.jsp" cascade="true" />
+    </definition>
+    <definition name="user.openshopstep1" extends="user.base">
+        <put-attribute name="title" value="Xác nhận tài khoản - Mở shop" />
+        <put-attribute name="content" value="/view/user/shop/openShopStepOne.jsp" />
+    </definition>
+    <definition name="user.openshopstep2" extends="user.base">
+        <put-attribute name="title" value="Xác thực số điện thoại- Mở shop" />
+        <put-attribute name="content" value="/view/user/shop/openShopStepTwo.jsp"  />
+    </definition>
+    <definition name="user.openshopstep3" extends="user.base">
+        <put-attribute name="title" value="Cấu hình thanh toán - Mở shop" />
+        <put-attribute name="content" value="/view/user/shop/openShopStepThree.jsp" />
+    </definition>
+
+    <definition name="user.shopbanner.heartbanner" extends="user.main">
+        <put-attribute name="title" value="Quản trị banner trang chủ" />
+        <put-attribute name="main" value="/view/user/shopbanner/heartbanner.jsp" cascade="true" />
+    </definition>
+    <definition name="user.shopbanner.bannerads" extends="user.main">
+        <put-attribute name="title" value="Quản trị banner" />
+        <put-attribute name="main" value="/view/user/shopbanner/bannerads.jsp" cascade="true" />
+    </definition>
+
+    <definition name="user.openshopfinish" extends="user.base">
+        <put-attribute name="title" value="Mở shop miễn phí" />
+        <put-attribute name="content" value="/view/user/shop/openShopFinish.jsp" />
+    </definition>
+    <definition name="user.shophomeitem" extends="user.main">
+        <put-attribute name="title" value="Quản trị sản phẩm nổi bật" />
+        <put-attribute name="main" value="/view/user/shopHomeItem/featureProduct.jsp" cascade="true" />
+    </definition>
+    <definition name="user.shoplistnews" extends="user.main">
+        <put-attribute name="title" value="Shop - Quản trị bài tin" />
+        <put-attribute name="main" value="/view/user/shopnews/newslist.jsp" cascade="true" />
+    </definition>
+    <definition name="user.shopnewsadd" extends="user.main">
+        <put-attribute name="title" value="Shop - Quản trị bài tin" />
+        <put-attribute name="main" value="/view/user/shopnews/newsadd.jsp" cascade="true" />
+    </definition>
+    <definition name="user.custormers" extends="user.main">
+        <put-attribute name="title" value="Danh sách khách hàng" />
+        <put-attribute name="main" value="/view/user/sellercustomer/list.jsp" cascade="true" />
+    </definition>
+    <definition name="user.emailmarketing" extends="user.main">
+        <put-attribute name="title" value="Danh sách email marketing" />
+        <put-attribute name="main" value="/view/user/selleremail/list.jsp" cascade="true" />
+    </definition>
+    <definition name="user.createemailmarketing" extends="user.main">
+        <put-attribute name="title" value="Soạn email marketing" />
+        <put-attribute name="main" value="/view/user/selleremail/create.jsp" cascade="true" />
+    </definition>
+    <definition name="user.createsmsmarketing" extends="user.main">
+        <put-attribute name="title" value="Soạn sms marketing" />
+        <put-attribute name="main" value="/view/user/selleremail/createsms.jsp" cascade="true" />
+    </definition>
+    <definition name="user.smsmarketing" extends="user.main">
+        <put-attribute name="title" value="Danh sách sms marketing" />
+        <put-attribute name="main" value="/view/user/selleremail/listsms.jsp" cascade="true" />
+    </definition>
+    <definition name="user.order.ladingcod" extends="user.main">
+        <put-attribute name="title" value="Duyệt vận đơn cod" />
+        <put-attribute name="main" value="/view/user/order/ladingcode.jsp" cascade="true" />
+    </definition>
+    <definition name="user.order.lading" extends="user.main">
+        <put-attribute name="title" value="Duyệt vận đơn vận chuyển" />
+        <put-attribute name="main" value="/view/user/order/lading.jsp" cascade="true" />
+    </definition>
+    <definition name="user.order.seller" extends="user.main">
+        <put-attribute name="title" value="Danh sách hóa đơn đặt hàng" />
+        <put-attribute name="main" value="/view/user/order/seller.jsp" cascade="true" />
+    </definition>
+    <definition name="user.order.buyer" extends="user.main">
+        <put-attribute name="title" value="Danh sách đơn hàng người mua" />
+        <put-attribute name="main" value="/view/user/order/buyer.jsp" cascade="true" />
+    </definition>
+    <definition name="user.follow.auction" extends="user.main">
+        <put-attribute name="title" value="Danh sách sản phẩm đấu giá đang được theo dõi" />
+        <put-attribute name="main" value="/view/user/follow/auction.jsp" cascade="true" />
+    </definition>
+    <definition name="user.itemfollow" extends="user.main">
+        <put-attribute name="title" value="Danh sách sản phẩm quan tâm" />
+        <put-attribute name="main" value="/view/user/follow/itemfollow.jsp" cascade="true" />
+    </definition>
+    <definition name="user.dashboard" extends="user.main">
+        <put-attribute name="title" value="Bảng điều khiển" />
+        <put-attribute name="main" value="/view/user/dashboard/dashboard.jsp" cascade="true" />
+    </definition>
+    <definition name="user.productuserinfo" extends="user.base">
+        <put-attribute name="title" value="Hồ sơ người bán" />
+        <put-attribute name="content" value="/view/user/dashboard/productuserinfo.jsp" cascade="true" />
+    </definition>
+    <definition name="user.message" extends="user.main">
+        <put-attribute name="title" value="Quản lý thư" />
+        <put-attribute name="main" value="/view/user/message/message.jsp" cascade="true" />
+    </definition>
+    <definition name="user.sendmessage" extends="user.main">
+        <put-attribute name="title" value="Quản lý thư" />
+        <put-attribute name="main" value="/view/user/message/sendmessage.jsp" cascade="true" />
+    </definition>
+    <definition name="user.sellerfollow" extends="user.main">
+        <put-attribute name="title" value="Người bán quan tâm" />
+        <put-attribute name="main" value="/view/user/follow/sellerfollow.jsp" cascade="true" />
+    </definition>
+    <definition name="user.invoice" extends="user.main">
+        <put-attribute name="title" value="Tạo hóa đơn" />
+        <put-attribute name="main" value="/view/user/invoice/invoice.jsp" cascade="true" />
+    </definition>
+    <definition name="user.topup" extends="user.main">
+        <put-attribute name="title" value="Nạp thẻ điện thoại" />
+        <put-attribute name="main" value="/view/user/topup/topupbycash.jsp" cascade="true" />
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,192 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->  
+<!DOCTYPE tiles-definitions PUBLIC  
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+        
+<tiles-definitions> 
+    <definition name="cp.layout" template="/view/cp/layout/main.jsp">
+        <put-attribute name="title" value="Hệ thống quản trị chodientu.vn"/>
+    </definition>
+    
+    <definition name="cp.index" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/index.jsp"/>
+    </definition>
+    <definition name="cp.auth" template="/view/cp/auth.jsp">
+        <put-attribute name="title" value="Hệ thống quản trị chodientu.vn"/>
+    </definition>
+    
+    <definition name="cp.function" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/function/list.jsp"/>
+    </definition>
+    <definition name="cp.category" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/category/list.jsp"/>
+    </definition>
+    <definition name="cp.manufacturer" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/manufacturer/list.jsp"/>
+    </definition>
+    <definition name="cp.model" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/model/list.jsp"/>
+    </definition>
+    <definition name="cp.model.create" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/model/creating.jsp"/>
+    </definition>
+    <definition name="cp.model.edit" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/model/editing.jsp"/>
+    </definition>
+    <definition name="cp.model.reviewedit" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/model/reviewedit.jsp"/>
+    </definition>
+    <definition name="cp.model.reviewcreate" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/model/reviewcreate.jsp"/>
+    </definition>
+    <definition name="cp.administrator" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/administrator/list.jsp"/>
+    </definition>
+    <definition name="cp.item" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/item/list.jsp"/>
+    </definition>
+    <definition name="cp.item.review" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/item/review.jsp"/>
+    </definition>
+    <definition name="cp.city" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/city/list.jsp"/>
+    </definition>
+    <definition name="cp.user" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/user/list.jsp"/>
+    </definition>
+    <definition name="cp.emailOutbox" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/emailOutbox/list.jsp"/>
+    </definition>
+    <definition name="cp.smsOutbox" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/smsoutbox/list.jsp"/>
+    </definition>
+    <definition name="cp.newscategory" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/newscategory/list.jsp"/>
+    </definition>
+    <definition name="cp.news" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/news/list.jsp"/>
+    </definition>
+    <definition name="cp.cash" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/cash/list.jsp"/>
+    </definition>
+    <definition name="cp.cashtransaction" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/cashtransaction/list.jsp"/>
+    </definition>
+    <definition name="cp.category.alias" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/categoryalias/list.jsp"/>
+    </definition>
+    <definition name="cp.heartbanner" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/heartbanner/list.jsp"/>
+    </definition>
+    <definition name="cp.home.banner" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/homebanner/bannerlist.jsp"/>
+    </definition>
+    <definition name="cp.hotdealbox" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/hotdealbox/list.jsp"/>
+    </definition>
+    <definition name="cp.topsellerbox" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/topsellerbox/list.jsp"/>
+    </definition>
+    <definition name="cp.topsellerboxitem" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/topsellerbox/listitem.jsp"/>
+    </definition>
+    <definition name="cp.bestdealbox" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/bestdealbox/list.jsp"/>
+    </definition>
+    <definition name="cp.featuredcategory" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/featuredcategory/list.jsp"/>
+    </definition>
+    <definition name="cp.featuredcategory.catesub" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/featuredcategory/catesub.jsp"/>
+    </definition>
+    <definition name="cp.featuredcategory.cate" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/featuredcategory/cate.jsp"/>
+    </definition>
+    <definition name="cp.newshomebox" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/newshomebox/list.jsp"/>
+    </definition>
+    <definition name="cp.featurednews" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/featurednews/list.jsp"/>
+    </definition>
+    <definition name="cp.hotdeal" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/hotdeal/list.jsp"/>
+    </definition>
+    <definition name="cp.landing.list" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/landing/list.jsp"/>
+    </definition>
+    <definition name="cp.landing.category" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/landing/listcategory.jsp"/>
+    </definition>
+    <definition name="cp.emailmarketing" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/emailmarketing/list.jsp"/>
+    </definition>
+    <definition name="cp.smsmarketing" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/smsmarketing/list.jsp"/>
+    </definition>
+    <definition name="cp.smsinbox" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/smsinbox/list.jsp"/>
+    </definition>
+    <definition name="cp.order.list" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/order/list.jsp"/>
+    </definition>
+    <definition name="cp.itemreview" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/itemreview/list.jsp"/>
+    </definition>
+    <definition name="cp.sellerreview" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/sellerreview/list.jsp"/>
+    </definition>
+    <definition name="cp.message" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/message/list.jsp"/>
+    </definition>
+    <definition name="cp.sc.history" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/schistory/list.jsp"/>
+    </definition>
+    <definition name="cp.lading" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/lading/list.jsp"/>
+    </definition>
+    <definition name="cp.shop" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/shop/list.jsp"/>
+    </definition>
+    <definition name="cp.seller" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/seller/list.jsp"/>
+    </definition>
+    <definition name="cp.itemwarning" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/itemwarning/list.jsp"/>
+    </definition>
+    <definition name="cp.advbanner" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/advbanner/list.jsp"/>
+    </definition>
+    <definition name="cp.item.quick" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/itemquick/quick.jsp"/>
+    </definition>
+    <definition name="cp.footerkeyword" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/footerkeyword/list.jsp"/>
+    </definition>
+    <definition name="cp.email" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/email/list.jsp"/>
+    </definition>
+    <definition name="cp.itemhistory" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/itemhistory/list.jsp"/>
+    </definition>
+    <definition name="cp.report" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/report/list.jsp"/>
+    </definition>
+    <definition name="cp.sellerlog" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/sellerlog/list.jsp"/>
+    </definition>
+    <definition name="cp.promotion" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/promotion/list.jsp"/>
+    </definition>
+    <definition name="cp.cashhistory" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/cashhistory/list.jsp"/>   
+    </definition>
+    <definition name="cp.userlock" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/userlock/list.jsp"/>
+    </definition>
+    <definition name="cp.topup" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/topup/list.jsp"/>
+    </definition>
+    <definition name="cp.itemcrawl" extends="cp.layout">
+        <put-attribute name="content" value="/view/cp/itemcrawl/list.jsp"/>
+    </definition>
+</tiles-definitions>

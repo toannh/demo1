@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 22, 2014, 4:49:17 PM
+    Author     : Account
+*/
+.col-sm-3.reset-padding .submit-choose-img-item{
+    width:175px;
+    margin-top:5px;
+    max-height:120px;
+}
+.col-sm-3.reset-padding .submit-choose-img-item .submit-img-item:nth-child(4n){
+    margin-right:5px;
+}
+.col-sm-3.reset-padding .submit-choose-img-item .submit-img-item:nth-child(3n){
+    margin-right:5px;
+}
+.col-sm-2.reset-padding-right .glyphicon.glyphicon-question-sign.pull-right{
+    color:#333;
+    font-size:15px;
+}
+.clr-red {
+    color: #ff0000;
+}
+.mgt-15 {
+    margin-top: 15px !important;
+}
+.btn-default {
+    background: #f4f4f4;
+    border: 1px solid #d3d3d3;
+}
+.btn-sm {
+    font-size: 12px;
+    text-transform: none;
+    padding: 3px 10px;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+.modal-sm{
+    max-width: 601px !important;
+}
+
+.glyphicon-question-sign{
+    margin-top: -10px;
+}
+
+

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.jawr.extensions:jawr-spring-2.0.x-extension:3.5.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/jawr/extensions/jawr-spring-2.0.x-extension/3.5.2/jawr-spring-2.0.x-extension-3.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/jawr/extensions/jawr-spring-2.0.x-extension/3.5.2/jawr-spring-2.0.x-extension-3.5.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/jawr/extensions/jawr-spring-2.0.x-extension/3.5.2/jawr-spring-2.0.x-extension-3.5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
